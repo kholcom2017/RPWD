@@ -1,0 +1,351 @@
+html{
+	min-height:100%; /* make sure it is at least as tall as the viewport */
+	position:relative;
+}
+
+body{
+	height:100%; /* forces the BODY to match the height of the HTML element */
+	background:#000C15;
+	color:#ff8c23;
+	font-family: 'Syncopate', sans-serif;
+	/* Margin bottom by footer height */
+}
+
+/*#cloud-container{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	overflow:hidden;
+	z-index:-1; /* Remove if this will not be in the background 
+}*/
+
+/*-------- Nav Bar ------------ */
+#nav{
+	height:100%;
+}
+
+.navbar{
+	margin-bottom:0;
+}
+.navbar-brand{
+	font-size:16px;
+}
+.navbar-right{
+	font-size:11px;
+}
+
+.navbar-default{
+	background:#35414c;
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus{
+	background:#232f39;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background:#ff8c23;
+}
+.navbar-default .navbar-toggle{
+	border-color: #ff8c23;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover{
+	color:#ff8c23;
+}
+
+.navbar-default .navbar-nav>li>a:link, .navbar-default .navbar-nav>li>a:visited{
+	color:#ff8c23;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active{
+	color:#ff8c23;
+	background:#232f39;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	color:#ff8c23;
+	background-color:#232f39;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+	color:#ff8c23;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:active{
+	color:#ff8c23;
+	background-color: #232f39;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+	background-image:none;
+}
+
+.dropdown-menu{
+	background:#232f39;
+}
+
+
+/* ----------- Slider ------------- */
+img.slide{
+	width:100%;
+}
+
+#carousel{
+	width:100%;
+	margin:0;
+}
+#services{
+	width:100%;
+	margin:0;
+}
+
+.carousel_section{
+	width:99.99%;
+	margin:0;
+}
+
+.first h1{
+	color:#ca6000;
+	margin:-17% 0 0 0;
+	text-align: right;
+	text-shadow: 1px 1px #834003;
+	font-size:1em;
+}
+
+.first h3{
+	text-align: right;
+	font-size:0.75em;
+	color:#000;
+}
+
+.first button{
+	background:#fff;
+	color:#35414c;
+	font-family: Lato, sans-serif;
+}
+
+.first p{
+	text-align: right;
+	margin-top: 5%;
+}
+.first button:hover{
+	background:#eee;
+	color:#35414c;
+}
+
+.carousel-caption .btn{
+	padding:1.5%;
+	font-size:1em;
+}
+
+div.carousel-caption{
+	position:initial;
+	margin:-30% 3% 0 0;
+
+}
+
+.services{
+	padding:1%;
+}
+
+.services h3{
+	font-size:1em;
+}
+
+.services p{
+	font-size:0.75em;
+}
+
+@media only screen and (min-width: 768px) {
+	.navbar-right{
+		font-size:10px;
+	}
+	.navbar-brand{
+		font-size:14px;
+	}
+	.first h1{
+		color:#ca6000;
+		margin:-12% 0 0 0;
+		text-align: right;
+		text-shadow: 1px 1px #834003;
+		font-size:1.5em;
+	}
+
+	.first h3{
+		text-align: right;
+		font-size:1.2em;
+		color:#000;
+	}
+
+	.first button{
+		background:#fff;
+		color:#35414c;
+		font-family: Lato, sans-serif;
+	}
+
+	.first p{
+		text-align: right;
+		margin-top: 10%;
+	}
+	.first button:hover{
+		background:#eee;
+		color:#35414c;
+	}
+
+	.carousel-caption .btn{
+		padding:1.75%;
+		font-size:1.3em;
+		margin-right:5%;
+	}
+
+	div.carousel-caption{
+		position:initial;
+		margin:-30% 3% 0 0;
+
+	}
+
+	.services{
+		padding:1%;
+	}
+
+	.services h3{
+		font-size:1.5em;
+	}
+
+	.services p{
+		font-size:1em;
+	}
+}
+
+@media only screen and (min-width : 992px) {
+	.navbar-right{
+		font-size:14px;
+	}
+	.navbar-brand{
+		font-size:18px;
+	}
+	.first h1{
+		color:#ca6000;
+		margin:-12% 0 0 0;
+		text-align: right;
+		text-shadow: 1px 1px #834003;
+		font-size:1.75em;
+	}
+
+	.first h3{
+		text-align: right;
+		font-size:1.5em;
+		color:#000;
+	}
+
+	.first button{
+		background:#fff;
+		color:#35414c;
+		font-family: Lato, sans-serif;
+	}
+
+	.first p{
+		text-align: right;
+		margin-top: 15%;
+	}
+
+	.carousel-caption .btn{
+		padding:1.75%;
+		font-size:1.3em;
+		margin-right:5%;
+		width:15%;
+	}
+
+	div.carousel-caption{
+		position:initial;
+		margin:-30% 3% 0 0;
+
+	}
+
+	.services{
+		padding:3%;
+	}
+
+	.services h3{
+		font-size:1.5em;
+	}
+
+	.services p{
+		font-size:1em;
+	}
+}
+
+@media only screen and (min-width : 1200px) {
+	.navbar-right{
+		font-size:18px;
+	}
+	.navbar-brand{
+		font-size:20px;
+	}
+	.first h1{
+		color:#ca6000;
+		margin:-12% 0 0 0;
+		text-align: right;
+		text-shadow: 1px 1px #834003;
+		font-size:2.5em;
+	}
+
+	.first h3{
+		text-align: right;
+		font-size:2em;
+		color:#000;
+	}
+
+	.first button{
+		background:#fff;
+		color:#35414c;
+		font-family: Lato, sans-serif;
+	}
+
+	.first p{
+		text-align: right;
+		margin-top: 15%;
+	}
+
+	.carousel-caption .btn{
+		padding:1.75%;
+		font-size:1.75em;
+		margin-right:5%;
+		width:15%;
+	}
+
+	div.carousel-caption{
+		position:initial;
+		margin:-30% 3% 0 0;
+
+	}
+
+	.services{
+		padding:3%;
+	}
+
+	.services h3{
+		font-size:1.5em;
+	}
+
+	.services p{
+		font-size:1em;
+	}
+}
+
+
+/* Sticky footer styles
+ -------------------------------------------------- */
+.footer {
+	/*position: absolute;
+	bottom: 0;*/
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	text-align: center;
+	padding-top:2.5%;
+	font-size:10px;
+	background-color: #35414c;
+}

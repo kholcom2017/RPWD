@@ -1,0 +1,148 @@
+html{
+	min-height:100%; /* make sure it is at least as tall as the viewport */
+	position:relative;
+}
+
+body{
+	height:100%; /* forces the BODY to match the height of the HTML element */
+	background:#000C15;
+	color:#ff8c23;
+	font-family: 'Syncopate', sans-serif;
+	/* Margin bottom by footer height */
+}
+
+#cloud-container{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	overflow:scroll;
+	z-index:-1; /* Remove if this will not be in the background */
+}
+.navbar-custom{
+	background:#35414c;
+	border:0px;
+	padding:0px;
+	margin:0px;
+	height: 76.88px;
+}
+.navbar{
+	border-radius: 0px;
+}
+
+#header a{
+	color:#ff8c23;
+	margin:0.6em;
+	font-size:1.6em;
+}
+
+a:link, a:visited{
+	color:#ff8c23;
+}
+
+.selected{
+	font-weight: bold;
+	font-size:20px;
+}
+
+#content{
+	height:98%;
+}
+
+#main{
+	padding-left:3em;
+}
+
+#nav{
+	height:100%;
+	position: absolute;
+	top:76.88px;
+	bottom:0;
+	left: 0;
+	right: 0;
+	background:#35414c;
+}
+
+.create{
+	font-size:10px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	padding-top:2.5%;
+	font-size:10px;
+	background-color: #35414c;
+}
+
+/* ------------------------------------------------
+				Admin Panel CSS
+------------------------------------------------- */
+.btn{
+	background:#35414c;
+}
+
+.btn:hover{
+	background:#232f39;
+	color:#ff8c23;
+}
+
+input, select, input[type=radio]{
+	background:#35414c;
+	border-color:#ff8c23;
+}
+
+ul.main_nav{
+	list-style:none;
+	margin-top:1.5em;
+	padding:0;
+}
+
+.main_nav li{
+	margin:1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
